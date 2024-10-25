@@ -203,8 +203,6 @@ footer {
         .tab-content a:hover {
             text-decoration: underline;
         }
-        
-    
 
         /* Nueva sección de detalles del producto */
         .product-detail {
@@ -229,6 +227,44 @@ footer {
             border: none;
             cursor: pointer;
         }
+        @media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ajusta el tamaño de la fuente para dispositivos pequeños */
+    }
+
+    header {
+        padding: 30px; /* Reduce el padding en el header */
+    }
+
+    .carousel-container {
+        max-width: 100%; /* Asegura que el carrusel use el 100% del ancho */
+        height: auto; /* Permite que la altura se ajuste automáticamente */
+    }
+
+    .product {
+        margin: 10px 0; /* Ajusta el margen entre productos */
+        padding: 10px; /* Reduce el padding en los productos */
+    }
+
+    .product-images img {
+        width: 80px; /* Reduce el tamaño de las imágenes de productos */
+        height: 80px; /* Reduce el tamaño de las imágenes de productos */
+    }
+
+    .description-container h3 {
+        font-size: 20px; /* Ajusta el tamaño de los títulos */
+    }
+
+    nav ul li {
+        display: block; /* Muestra los elementos en bloque */
+        margin: 5px 0; /* Margen vertical */
+    }
+
+    .carousel-button {
+        padding: 8px; /* Reduce el tamaño de los botones del carrusel */
+    }
+}
+
 
         .buy-button {
     background-color: #333; /* Color grisáceo */
